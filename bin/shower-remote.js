@@ -28,8 +28,8 @@ var cliPort = port === 80 ? '' : ':' + port,
 console.log('Running %s %s %s %s', 'shower-remote'.green, secretToken.blue, port.toString().yellow, host.yellow);
 console.log('Add ' + '<script'.blue + ' src="%s"'.green + '></script>'.blue + ' to your presentation to enable Shower Remote', showerRemoveUrl);
 console.log('Then use that urls:');
-console.log('  - Slave  ' + 'http://%s%s/'.blue.underline, cliHost, cliPort);
-console.log('  - Master ' + 'http://%s%s/?%s'.blue.underline, cliHost, cliPort, secretToken);
+console.log('  - Slave  ' + 'http://%s%s/.../'.blue.underline, cliHost, cliPort);
+console.log('  - Master ' + 'http://%s%s/.../?%s'.blue.underline, cliHost, cliPort, secretToken);
 if (remoteIps.length) {
     console.log('If %s does not work - try these addresses %s', cliHost.blue, remoteIps.join(', ').blue);
 }
