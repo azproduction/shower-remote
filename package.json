@@ -1,6 +1,6 @@
 {
     "name": "shower-remote",
-    "version" : "1.0.3",
+    "version" : "1.0.4",
     "description": "Shower Remote - \"Keynote Remote\" for Shower presentation engine",
     "author": "Mikhail Davyov <i@azproduction.ru>",
     "dependencies": {
